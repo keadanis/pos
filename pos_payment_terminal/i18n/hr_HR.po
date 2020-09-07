@@ -44,7 +44,6 @@ msgstr "Dnevnik"
 #: model:ir.model.fields,field_description:pos_payment_terminal.field_pos_config__iface_payment_terminal
 #: model_terms:ir.ui.view,arch_db:pos_payment_terminal.view_pos_config_form
 #, fuzzy
-#| msgid "Payment Mode"
 msgid "Payment Terminal"
 msgstr "Način plaćanja"
 
@@ -59,6 +58,7 @@ msgid "Point of Sale Orders"
 msgstr ""
 
 #. module: pos_payment_terminal
+#: model:ir.model.fields,help:pos_payment_terminal.field_account_bank_statement_import_journal_creation__pos_terminal_payment_mode
 #: model:ir.model.fields,help:pos_payment_terminal.field_account_journal__pos_terminal_payment_mode
 msgid "Select the payment mode sent to the payment terminal"
 msgstr "Odaberite način plaćanja korišten na naplatnom terminalu"
@@ -71,9 +71,9 @@ msgid "Start transaction"
 msgstr "Započni transakciju"
 
 #. module: pos_payment_terminal
+#: model:ir.model.fields,field_description:pos_payment_terminal.field_account_bank_statement_import_journal_creation__pos_terminal_payment_mode
 #: model:ir.model.fields,field_description:pos_payment_terminal.field_account_journal__pos_terminal_payment_mode
 #, fuzzy
-#| msgid "Payment Mode"
 msgid "Terminal Payment Mode"
 msgstr "Način plaćanja"
 

@@ -32,7 +32,6 @@ msgstr ""
 #. module: pos_price_to_weight
 #: model:ir.model,name:pos_price_to_weight.model_barcode_rule
 #, fuzzy
-#| msgid "barcode.rule"
 msgid "Barcode Rule"
 msgstr "barcode.rule"
 
@@ -89,6 +88,11 @@ msgstr ""
 #. module: pos_price_to_weight
 #: selection:barcode.rule,type:0
 msgid "Priced Product (Computed Weight)"
+msgstr ""
+
+#. module: pos_price_to_weight
+#: selection:barcode.rule,type:0
+msgid "Tare"
 msgstr ""
 
 #. module: pos_price_to_weight
